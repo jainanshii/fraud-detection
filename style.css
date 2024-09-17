@@ -1,0 +1,293 @@
+/* General reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6; /* Better readability */
+    font-size: 20px;
+}
+
+/* Logo/Icon */
+#icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Body styling */
+body {
+    overflow-y: scroll;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark gray text */
+}
+
+/* General button styling */
+button {
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Anchor tags styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Anchor tag hover effect */
+a:hover {
+    color: #0c7db1; /* Blue on hover */
+}
+
+/* Navbar styling */
+nav {
+    background-color: #0a3d62; /* Navy blue background */
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    font-family: 'Instrument Serif', serif;
+}
+
+/* Navbar list styling */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar list item */
+nav ul li {
+    padding: 0 12px;
+    color: white;
+}
+
+/* Left section of navbar */
+.left {
+    float: left;
+}
+
+/* Right section of navbar */
+.right {
+    float: right;
+}
+
+/* Content section */
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Menu left section styling */
+#menu-left {
+    float: left;
+    width: 23%;
+    background-color: rgba(0, 0, 255, 0.425); /* Light blue background */
+    padding: 15px;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    line-height: 50px;
+    height: auto;
+}
+
+/* Menu list items */
+#menu-left ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+/* Menu right section */
+#menu-right {
+    float: right;
+    width: 75%;
+}
+
+/* Hover and active state for menu items */
+#menu-left li:hover,
+#menu-left li.active {
+    color:white;
+    border: 2px solid rgb(5, 68, 104);
+    cursor: pointer;
+}
+#menu-left-img{
+    width:300px;
+}
+
+/* Sign-in form container */
+.sign-email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Sign-in form box */
+.sign-email-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Limiting form width */
+    text-align: center;
+}
+
+/* Sign-in form layout */
+.sign-email {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between form elements */
+}
+
+/* Input fields */
+.sign-email input {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Sign-in button */
+.sign-email button {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Form container for upload section */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* Styling for the upload form box */
+.form-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Form heading */
+.form-box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Form description */
+.form-box p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Input for file upload */
+.form-box input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Centered heading */
+#heading {
+    text-align: center;
+}
+#tutorial{
+    text-align: center;
+}
+/* Footer styling */
+footer {
+    background-color: #0a3d62; /* Navy Blue background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+/* Footer logo styling */
+#footer-icon {
+    width: 150px;
+    height: 150px;
+}
+
+/* Footer links */
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #a3d2fc; /* Light Blue hover */
+}
+
+/* Footer social media icons */
+.footer-social a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #a3d2fc; /* Light Blue hover */
+}
+
+/* Footer bottom copyright text */
+.footer-bottom {
+    border-top: 1px solid #333; /* Dark Gray border */
+    padding-top: 10px;
+    font-size: 14px;
+    color: #ccc; /* Lighter gray for text */
+}

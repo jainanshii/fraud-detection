@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud detection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" href="favicon.jpeg" type="image/jpeg">
+</head>
+<body>
+        <nav class="reveal">
+            <div class="left">
+                <ul>
+                    <li><img id="icon" src="favicon.jpeg" alt="Fraud Detection Platform"></li>
+                    <li><a href="index.html"><i class="bi bi-house-door">Home</i></a></li>
+                    <li><a href="#link">API Documentation</a></li>
+                    <li><a href="pricing.html">Pricing Plans</a></li>
+                </ul>
+            </div>
+        </nav>
+        <br><br>
+       <div class="reveal" id="heading">
+            <h1 id="overview">Welcome to FraudGuard – AWS-Powered Fraud Detection API</h1>
+            <br>
+                <p>FraudGuard is a cutting-edge fraud detection platform designed to protect your business from fraudulent activities in real-time. Powered by AWS services like Lambda, SageMaker, and API Gateway, our system offers a scalable, secure, and intelligent solution for identifying fraud across multiple industries.</p>
+                <br></div>
+                <h2><h2 id="heading">Detect Fraud with FraudGuard</h2></h2>
+        <div class="form-container">
+            <div class="form-box">
+                <p>Upload your data for fraud detection and let FraudGuard do the rest.</p>
+                <form id="fraud-form" method="post" enctype="multipart/form-data">
+                    <label for="data-file">Upload Data File:</label>
+                    <input type="file" id="data-file" name="data-file" required>
+                    <br>
+                    <button type="submit">Upload and Detect Fraud</button>
+                </form>
+            </div>
+        </div>
+        <br><br>
+        <section id="content" class="reveal">
+            <div id="menu-left">
+                <div id="menu">
+                <h3>Table of content:</h3>
+              <ul>
+                <li><a href="#overview">Welcome to FraudGuard </a></li>
+                <li><a href="#what">What is Fraud?</a></li>
+                <li><a href="#why">Why Fraud Detection Needed?</a></li>
+                <li><a href="#Platform">Fraud Detection API Platform</a></li>
+                <li><a href="#use">Use Cases</a></li>
+                <li><a href="#types">Types of fraud</a></li>
+                <li><a href="#tutorial">How to use FraudGuard?</a></li>
+              </ul>
+            </div>
+              <br>
+              <div id="thought"><a href="index.html"><img id="menu-left-img" src="favicon.jpeg"></a></div>
+              <div id="thought">
+                <div class="sign-email-container">
+                    <div class="sign-email-box">
+                <h1>Log in</h1>
+                <div class="sign-email">
+                    <form id="log" method="post">
+                        <label for="uusername">Username:</label>
+                        <input type="text" id="uusername" name="uusername" required>
+                        <label for="upassword">Password:</label>
+                        <input type="password" id="upassword" name="upassword" required>
+                        <br><br>
+                        <button type="submit" width:50px>Login</button>
+                        <br>
+                        <p>Do Not Have Account? <a href="">Sign Up</a></p>
+                </form></div></div></div>
+              </div>
+            <!--  <audio controls><source src="/song.mp3"></audio>-->
+            </div>
+        </div>
+        <br><br>
+        <div id="menu-right" class="reveal">
+            <h1 id="what">What is Fraud?</h1><br>
+            <p>
+                Fraud is an intentional act of deception aimed at gaining an unfair advantage, such as financial gain or manipulating data. From identity theft to financial fraud, the impacts are widespread, causing financial losses and reputational damage to businesses and individuals alike. </p><br>
+                 <h1 id="why" class="reveal"> Why Fraud Detection Needed?</h1><br>
+                 <p>As businesses grow and digital transactions increase, so do opportunities for fraudulent activities. Fraud detection is crucial in identifying and stopping suspicious behavior before it causes harm. Automated fraud detection systems offer a scalable solution that analyzes data in real-time, allowing for faster, more accurate responses than manual methods. Without it, businesses risk losing revenue and customer trust. </p>
+                 <br>
+                 <h1 id="types">What are the most common types of fraud?</h1>
+                 <p>Common types of fraud include:
+                    <ul>
+                        <li><strong>Identity theft:</strong> Stealing someone’s personal information to commit fraud.</li>
+                        <li><strong>Credit card fraud:</strong> Unauthorized use of credit or debit cards.</li>
+                        <li><strong>Phishing:</strong> Deceptive emails or messages designed to steal sensitive information.</li>
+                        <li><strong>Online scams:</strong> Fraudulent schemes on e-commerce platforms, social media, or through email.</li>
+                      </ul>
+                </p>
+                <br><br>
+                     <h1 id="Platform">Fraud Detection API Platform</h1><br>
+                     <p>Our FraudGuard API is seamlessly integrated with AWS services to deliver reliable, scalable fraud detection:
+
+                        Real-Time Detection: Using AWS Lambda, FraudGuard processes transactions and detects fraud in real-time, providing instant feedback to prevent fraud before it happens.
+                        Scalable Architecture: Built on AWS, FraudGuard scales effortlessly to handle increasing volumes of data, ensuring consistent performance as your business grows.
+                        Secure Data Handling: All data is securely processed and encrypted through AWS services, ensuring your business complies with the highest industry standards.
+                        <br><br>
+                     <h1 id="use">Use Cases</h1>
+                    <br>
+                        <li>E-Commerce Fraud: Prevent payment fraud, chargebacks, and fake accounts.</li>
+                        <li>Institutions: Detect suspicious withdrawals, unusual transaction patterns, and unauthorized access.</li> 
+                        <li>Healthcare: Identify fraudulent claims and patient identity theft.</li>
+                        <li>Telecom: Detect SIM swapping, account fraud, and illegal activities.</li>
+                    </ul>
+                        
+                 
+         </div>
+     </section>
+
+     <section id="tutorial">
+        <h1>How to use FraudGuard?
+        </h1>
+        <img src="favicon.jpeg">
+     </section>
+     <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="favicon.jpeg" alt="Fraud Detection Logo" id="footer-icon">
+            </div>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#api-docs">API Documentation</a>
+                <a href="#pricing">Pricing Plans</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FraudGuard. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
