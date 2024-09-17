@@ -19,6 +19,10 @@ body {
     overflow-y: scroll;
     background-color: #ffffff; /* White background */
     color: #333333; /* Dark gray text */
+    padding-top: 50px; /* Matches the height of your navbar */
+    padding-bottom: 60px; /* Matches the height of your footer */
+    margin: 0; /* Remove default margin if needed */
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 /* General button styling */
@@ -283,11 +287,19 @@ footer {
 .footer-social a:hover {
     color: #a3d2fc; /* Light Blue hover */
 }
-
-/* Footer bottom copyright text */
 .footer-bottom {
-    border-top: 1px solid #333; /* Dark Gray border */
+    border-top: 1px solid #333; 
     padding-top: 10px;
     font-size: 14px;
-    color: #ccc; /* Lighter gray for text */
+    color: #ccc; 
 }
+nav {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+footer {
+    position: static; /* Fix the footer to the bottom */
+}
+
